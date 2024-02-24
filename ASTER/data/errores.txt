@@ -1,0 +1,19 @@
+1|Contactar al Emisor|Cliente debe consultar con el banco.|No elevar gestión técnica. Funciona correctamente
+3|Comercio Invalido|Realizar otro intento, de persistir el cliente debe consultar con el banco.|No elevar gestión técnica. Funciona correctamente
+4|Capturar Tarjeta|Cliente debe consultar con el banco.|No elevar gestión técnica. Funciona correctamente
+5|DENEGADA|Cliente debe consultar con el banco.|No elevar gestión técnica. Funciona correctamente
+12|Operacion rechazada por entidad bancaria|Cliente debe consultar con el banco|No elevar gestión técnica. Funciona correctamente
+13|MONTO INVALIDO|Agente coloca monto invalido (Ejemplo: $1).|No elevar gestión técnica. Funciona correctamente
+51|Fondos Insuficientes|Cliente debe intentar con otra tarjeta.|No elevar gestión técnica. Funciona correctamente
+54|Tarjeta Vencida|Cliente intentar con otra tarjeta.|No elevar gestión técnica. Funciona correctamente
+55|PIN Invalido|Cliente ingresar correctamente el PIN del cajero automático.|No elevar gestión técnica. Funciona correctamente
+57|TRX No permitida por la Tarjeta|Cliente debe intentar con otra tarjeta|No elevar gestión técnica. Funciona correctamente
+61|Supera limite diario de extracción|Cliente supero el limite diario de extraccion permitido por su banco|No elevar gestión técnica. Funciona correctamente
+62|Tarjeta Restringida|Realizar otro intento, de persistir el cliente debe consultar con el banco.|No elevar gestión técnica. Funciona correctamente
+75|Excedió la cantidad de intentos de ingresar PIN|Cliente esta ingresando reiteradas veces mal el PIN del CAJERO AUTOMATICO.|No elevar gestión técnica. Funciona correctamente
+82|Banda o Chip dañados|Intentar nuevamente o con otro método|No elevar gestión técnica. Funciona correctamente
+-2|Cancelado por el operador|1)Validar operatoria\n2) De persistir elevar caso técnico|Débito Fiserv - Otros Inconvenientes
+-5|Sin comunicación con SiTef|Elevar caso técnico|Débito Fiserv - Otros Inconvenientes
+-6|Cancelado por el usuario|1) Reiniciar pinpad y probar nuevamente\n2) Reiniciar puesto si continúa el inconveniente\n3) Elevar caso técnico si persiste|Débito Fiserv - Otros Inconvenientes
+-43|Error en operatoria del pinpad|1) Validar operatoria\n2) De persistir reiniciar pinpad y probar nuevamente\n3) Reiniciar puesto si continúa el inconveniente\n4) Elevar caso técnico si persiste|Débito Fiserv - Otros Inconvenientes
+-100|Utiliza CONTACTLESS para EXTRACCIONES|Explicar la operatoria y recomendar utilizar chip para las tarjetas que tienen contactless|No elevar gestión técnica. Funciona correctamente
