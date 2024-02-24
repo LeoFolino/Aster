@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import ttk
 import sys
 import os
 
@@ -69,6 +70,12 @@ entry.bind("<Return>", mostrar_respuesta)
 button = tk.Button(root, text="Buscar", command=mostrar_respuesta, font=fuente_texto, bg='#E0004D', fg='#FFFFFF')
 button.pack()
 
+# Para el campo de entrada
+entry.pack(pady=(10, 0))
+
+# Para el botón, agregamos espacio solo en la parte superior
+button.pack(pady=(10, 20))
+
 # Configuración inicial del label de "¿Cómo debo tipificarlo?:"
 # El fondo inicial es el mismo que el de la ventana y el texto en blanco
 tipificacion_label = tk.Label(root, text="", fg='#FFFFFF', bg='#221551', font=fuente_tipificacion, wraplength=580)
@@ -80,8 +87,8 @@ descripcion_label = tk.Label(root, text="", fg='#FFFFFF', bg='#221551', font=fue
 descripcion_label.pack()
 
 tk.Frame(root, height=2, bd=1, relief="sunken", bg='#221551').pack(fill="x", padx=5, pady=5)
-accion_label = tk.Label(root, text="", fg='#FFFFFF', bg='#221551', font=("Helvetica", 14, "bold"), wraplength=580)
-accion_label.pack()
+accion_label = tk.Label(root, text="", fg='#FFFFFF', bg='#221551', font=("Helvetica", 14, "bold"), wraplength=580, anchor='w', justify='left')
+accion_label.pack(fill='x', padx=(10,0))  # padx con una tupla crea margen solo a la izquierda
 
 tk.Frame(root, height=2, bd=1, relief="sunken", bg='#221551').pack(fill="x", padx=5, pady=5)
 tipificacion_label = tk.Label(root, text="", fg='#FFFFFF', bg='#221551', font=fuente_tipificacion, wraplength=580)
