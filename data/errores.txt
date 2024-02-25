@@ -10,7 +10,7 @@
 57|TRX No permitida por la Tarjeta|Cliente debe intentar con otra tarjeta|No elevar gestión técnica. Funciona correctamente
 61|Supera limite diario de extracción|Cliente supero el limite diario de extraccion permitido por su banco|No elevar gestión técnica. Funciona correctamente
 62|Tarjeta Restringida|Realizar otro intento, de persistir el cliente debe consultar con el banco.|No elevar gestión técnica. Funciona correctamente
-75|Excedió la cantidad de intentos de ingresar PIN|Cliente esta ingresando reiteradas veces mal el PIN del CAJERO AUTOMATICO.|No elevar gestión técnica. Funciona correctamente
+75|Excedió la cantidad de intentos de ingresar PIN|Cliente esta ingresando reiteradas veces mal el PIN de COMPRA.|No elevar gestión técnica. Funciona correctamente
 82|Banda o Chip dañados|Intentar nuevamente o con otro método|No elevar gestión técnica. Funciona correctamente
 -2|Cancelado por el operador|1)Validar operatoria\n2) De persistir elevar caso técnico|Débito Fiserv - Otros Inconvenientes
 -5|Sin comunicación con SiTef|Elevar caso técnico|Débito Fiserv - Otros Inconvenientes
