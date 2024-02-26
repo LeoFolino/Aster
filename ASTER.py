@@ -39,7 +39,7 @@ if getattr(sys, 'frozen', False):
 else:
     application_path = os.path.dirname(os.path.abspath(__file__))
 
-archivo_errores = os.path.join(application_path, 'data\errores.txt')
+archivo_errores = os.path.join(application_path, 'data/errores.txt')
 errores = cargar_errores(archivo_errores)
 
 root = tk.Tk()
